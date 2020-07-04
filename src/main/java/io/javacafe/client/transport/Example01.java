@@ -10,7 +10,7 @@ import java.net.UnknownHostException;
 
 
 /**
- * Transport 연결
+ * Transport �뿰寃�
  * 
  * @author User
  *
@@ -21,7 +21,7 @@ public class Example01 {
 	public static void main(String[] args) throws UnknownHostException {
 
 
-        Settings settings = Settings.builder() .put("cluster.name", "elasticsearch").build();
+        Settings settings = Settings.builder() .put("cluster.name", "javacafe-cluster").build();
 
         TransportClient client =
                 new PreBuiltTransportClient(settings)
